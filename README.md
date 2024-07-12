@@ -11,6 +11,6 @@ This script is designed to send random messages to a specified phone number via 
 
 # Usage
 ```bash
-./send_message.sh <phone_number>
+./cron.sh <phone_number>
 ```
 Replace `<phone_number>` with the 10-digit phone number of the recipient.

@@ -10,7 +10,14 @@ This script is designed to send random messages to a specified phone number via 
 
 
 # Usage
+## Start cron job
 ```bash
 ./cron.sh <phone_number>
 ```
 Replace `<phone_number>` with the 10-digit phone number of the recipient.
+
+## Delete cron job 
+``` bash
+crontag -e
+```
+Delete the line in the crontag file. 
